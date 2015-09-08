@@ -121,7 +121,7 @@ th, td {
 }
 
 #map{
-	 height: 370px;
+	 height: 500px;
 	 width: 88%;
 	transform: translateZ(0px);
 	background-color: rgb(144, 134, 115);

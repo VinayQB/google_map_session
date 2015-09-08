@@ -38,53 +38,10 @@
 	</div>
 	<section class="trip_info">
 		<div id="map"></div>
-			<div id="buttonid">
-				<p class="popup">
-		 			<a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block'; document.getElementById('fade').style.display='block'">
-		 				<button class="btnExample" type="submit" value="Submit">Options</button>
-		 			</a>
-		 		</p>
-			</div>
-        <div id="light" class="white_content">
-        	<h2>Trip Events</h2>
-        	<a style="float:right; text-decoration: none; color: red;" href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">
-  				<img id="close" src="../assets/images/460173b3ab29f1ee869a2712eeac40cf.png">
-  			</a>
-        	<fieldset class="row">
-        		<p>
-                    <input type="checkbox" name="event" value="Break" id="check1" onclick=highlight() required/> 
-                    <label id="gender">Break Events</label>  
-             	</p>
-             	<p>
-                    <input type="checkbox" name="event" value="Crash" id="check2" onclick=highlight() required/> 
-                    <label id="gender">Crash Events</label>  
-             	</p>
-             	<p>
-                    <input type="checkbox" name="event" value="Sharp" id="check3" onclick=highlight() required/> 
-                    <label id="gender">Sharp Turns</label>  
-             	</p>
-             	<p>
-                    <input type="checkbox" name="event" value="Accl" id="check4" onclick=highlight() required/> 
-                    <label id="gender">Acceleration</label>  
-             	</p>
-        	</fieldset>
-        </div>
+	
 
 		<div class="route_details">
 			<div class="search_bar"></div>
-
-      		<div class="event_details">
-				<table>
-					<thead>
-						<tr>
-					  		<th>Event Name</th>
-					  		<th>Lattitude</th>
-					  		<th>Longitude</th>
-						</tr>
-					</thead>
-					<tbody></tbody>
-				</table>
-			</div>
 		</div>
     </section>	
 </div>
@@ -106,6 +63,7 @@
 	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;libraries=geometry"></script>
 	<script type="text/javascript" src="../assets/js/trip.js"></script>		
 	<script type="text/javascript" src="../assets/js/tripDetails.js"></script>	
+	<script type="text/javascript" src='https://www.google.com/jsapi?autoload={"modules":[{"name":"visualization","version":"1","packages":["corechart","controls","table"]}]}'></script>
 
 </body>
 </html>
