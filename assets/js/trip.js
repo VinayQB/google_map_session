@@ -67,7 +67,7 @@ function loadMap(tripIndex,driverIndex) {
 
 	var mapOptions = {
 		center: {lat: tripList[i].route_details[0].lat, lng: tripList[i].route_details[0].lng},
-		zoom: 11,
+		zoom: 12,
 		mapTypeId: google.maps.MapTypeId.ROADMAP,
 		disableDefaultUI: true,
 		mapTypeControl: true,
